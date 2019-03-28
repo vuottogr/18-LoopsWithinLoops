@@ -162,7 +162,6 @@ def draw_wall_on_right(rectangle, n, window):
             new = rg.Rectangle(c1, c2)
             new.attach_to(window)
 
-
     window.render(0.5)
 
 
