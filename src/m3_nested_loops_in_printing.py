@@ -312,9 +312,9 @@ def triangle_all_numbers_in_each_row(r):
     #   would defeat the goal of providing practice at loops within loops.
     # ------------------------------------------------------------------
 
-    for k in range(r + 2):
-        for j in range(1, k):
-            print(j, end='')
+    for k in range(r):
+        for j in range(k + 1):
+            print((1 + j), end='')
         print()
 
 # ----------------------------------------------------------------------
